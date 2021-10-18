@@ -10,7 +10,11 @@ def test_number_string():
     result= string_cal("1")
     assert result== 1
 
-def test_sum_of_numbers():
+def test_sum_of_number():
+    result= string_cal("12345")
+    assert result==15
+
+def test_sum_of_numbers_with_delimiter():
     result= string_cal("1/2\n3;3")
     assert result== 9
 
