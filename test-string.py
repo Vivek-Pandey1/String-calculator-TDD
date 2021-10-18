@@ -4,7 +4,7 @@ from String import string_cal
 
 def test_empty_string():
     result= string_cal("")
-    assert result==""
+    assert result=="0"
 
 def test_number_string():
     result= string_cal("1")
